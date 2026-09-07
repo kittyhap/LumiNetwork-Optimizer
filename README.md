@@ -7,4 +7,4 @@ TCP tuning / Nagle off / throttle off / GameDVR off / NIC latency props in one p
 Run it - paste this in PowerShell
 
 ```powershell
-powershell -ExecutionPolicy Bypass -Command "Invoke-Expression (Invoke-RestMethod 'https://gist.githubusercontent.com/kittyhap/5d3e28d948f395f5c56f7acfadab6056/raw/LummiNet.ps1')"
+irm 'https://gist.githubusercontent.com/kittyhap/5d3e28d948f395f5c56f7acfadab6056/raw/LummiNet.ps1' | iex
